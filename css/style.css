@@ -42,6 +42,7 @@
     background: url('../imagen/index/banner-astronauta.png');
     background-size: cover;
     padding-top: 134px;
+    background-position-x: 60%;
 }
 
 .contenedor-marcas {
@@ -109,6 +110,12 @@
     border-color: #81FE2D;
 }
 
+#porfolio .tab-pane img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
 
 /* dialog-personalizado */
 
@@ -120,4 +127,5 @@
 
 .dialog-personalizado #content-pages-rutas {
     padding: 0;
+    background: #DDDDDD;
 }

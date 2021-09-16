@@ -73,6 +73,7 @@ h6 {
 
 p {
     font-family: 'Inter', sans-serif;
+    color: #fff;
 }
 
 .navbar-background {
@@ -130,7 +131,7 @@ p {
 
 .rayaverdemix {
     width: 26px;
-    height: 4px;
+    height: 2px;
     border-radius: 80px;
     background-color: #81FF2D;
 }

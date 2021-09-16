@@ -114,21 +114,178 @@
                 <a class="nav-link" id="BTL-tab" data-toggle="pill" href="#BTL" role="tab" aria-controls="BTL" aria-selected="false">BTL</a>
                 <a class="nav-link" id="Production-tab" data-toggle="pill" href="#Production" role="tab" aria-controls="Production" aria-selected="false">PRODUCTION</a>
                 <a class="nav-link" id="UX/UI-tab" data-toggle="pill" href="#UX-UI" role="tab" aria-controls="UX/UI" aria-selected="false">UX / UI</a>
-                <a class="nav-link" id="Web Site-tab" data-toggle="pill" href="#Web-Site" role="tab" aria-controls="Web Site" aria-selected="false">WEB SITE</a>
+                <a class="nav-link" id="Web-Site-tab" data-toggle="pill" href="#Web-Site" role="tab" aria-controls="Web-Site" aria-selected="false">WEB SITE</a>
             </div>
         </div>
         <div class="col-6">
             <div class="tab-content" id="porfolio">
                 <div class="tab-pane fade show active" id="Branding" role="tabpanel" aria-labelledby="Branding-tab">
-                    1</div>
-                <div class="tab-pane fade" id="BTL" role="tabpanel" aria-labelledby="BTL-tab">2</div>
-                <div class="tab-pane fade" id="Production" role="tabpanel" aria-labelledby="Production-tab">3
+
+                    <div class="row pl-5">
+                        <div class="col-6">
+                            <img class="" src="../imagen/index/trophy.png" alt="">
+                            <div class="rayaverdemix my-3"></div>
+                            <p>
+                                <b>Visibilidad</b> <br> Logra resaltar <br> el poder de tu marca
+                            </p>
+
+                        </div>
+                        <div class="col-6">
+                            <img class="" src="../imagen/index/heart.png" alt="">
+                            <div class="rayaverdemix my-3"></div>
+                            <p>
+                                <b>Awareness</b> <br> Recordación <br> de tus productos
+                            </p>
+
+                        </div>
+                        <div class="col-6">
+                            <img class="" src="../imagen/index/star.png" alt="">
+                            <div class="rayaverdemix my-3"></div>
+                            <p>
+                                <b>Posicionamiento</b> <br> Construcción de marca
+                            </p>
+
+                        </div>
+                        <div class="col-6">
+                            <img class="" src="../imagen/index/flag_1.png" alt="">
+                            <div class="rayaverdemix my-3"></div>
+                            <p>
+                                <b>Eventos</b> <br> Logra impacto directo <br> y creativo con tu mensaje
+                            </p>
+
+                        </div>
+
+                    </div>
+
                 </div>
-                <div class="tab-pane fade" id="UX-UI" role="tabpanel" aria-labelledby="UX/UI-tab">4</div>
-                <div class="tab-pane fade" id="Web-Site" role="tabpanel" aria-labelledby="Web Site-tab">5</div>
+                <div class="tab-pane fade" id="BTL" role="tabpanel" aria-labelledby="BTL-tab">
+                    <div class="row pl-5">
+                        <div class="col-6">
+                            <img class="" src="../imagen/index/bookmark.png" alt="">
+                            <div class="rayaverdemix my-3"></div>
+                            <p>
+                                <b>Eventos</b> <br> Logra impacto directo <br> y creativo con tu mensaje
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <img class="" src="../imagen/index/hearts-alt.png" alt="">
+                            <div class="rayaverdemix my-3"></div>
+                            <p>
+                                <b>Experiencias</b> <br> Fidelizar y crear vínculos <br> con los seguidores de tu marca
+
+                            </p>
+
+                        </div>
+                        <div class="col-6">
+                            <img class="" src="../imagen/index/bilb.png" alt="">
+                            <div class="rayaverdemix my-3"></div>
+                            <p>
+                                <b>Pensamiento</b> <br> Acciones estratégicas <br> para que logres <br> experiencias únicas.
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="Production" role="tabpanel" aria-labelledby="Production-tab">
+
+                    <div class="row pl-5">
+                        <div class="col-6">
+                            <img class="" src="../imagen/index/bolt_1.png" alt="">
+                            <div class="rayaverdemix my-3"></div>
+                            <p>
+                                <b>Impacto</b> <br> Logra que tu mensaje <br> audiovisual impacte <br> y genere ventas
+
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <img class="" src="../imagen/index/tetris02.png" alt="">
+                            <div class="rayaverdemix my-3"></div>
+                            <p>
+                                <b>Experiencias</b> <br> Arte y fotografía se unen<br> para crear experiencias visuales
+                            </p>
+
+                        </div>
+                        <div class="col-6">
+                            <img class="" src="../imagen/index/incongnito.png" alt="">
+                            <div class="rayaverdemix my-3"></div>
+                            <p>
+                                <b>Visión</b> <br> Llevamos tu idea <br> de negocio a la realidad
+
+                            </p>
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="UX-UI" role="tabpanel" aria-labelledby="UX/UI-tab">
+
+                    <div class="row pl-5">
+                        <div class="col-6">
+                            <img class="" src="../imagen/index/chat-empty.png" alt="">
+                            <div class="rayaverdemix my-3"></div>
+                            <p>
+                                <b>Metodologías</b> <br> Nos aseguramos <br> de usar la metodología <br> adecuada para tu proyecto
+
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <img class="" src="../imagen/index/joystick.png" alt="">
+                            <div class="rayaverdemix my-3"></div>
+                            <p>
+                                <b>Design</b> <br>Soluciones empáticas<br> y minimalistas
+
+                            </p>
+
+                        </div>
+                        <div class="col-6">
+                            <img class="" src="../imagen/index/crown.png" alt="">
+                            <div class="rayaverdemix my-3"></div>
+                            <p>
+                                <b>Development</b> <br>Interfaces y experiencia <br> del usuario
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="Web-Site" role="tabpanel" aria-labelledby="Web-Site-tab">
+                    <div class="row pl-5">
+                        <div class="col-6">
+                            <img class="" src="../imagen/index/check-circle.png" alt="">
+                            <div class="rayaverdemix my-3"></div>
+                            <p>
+                                <b>Ventas</b> <br> Generación de leads y ventas, <br> además ofrecemos <br> soporte a tus clientes
+
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <img class="" src="../imagen/index/cube.png" alt="">
+                            <div class="rayaverdemix my-3"></div>
+                            <p>
+                                <b>Construcción</b> <br>Describe tus fortalezas<br> y construye tu reputación
+
+
+                            </p>
+
+                        </div>
+                        <div class="col-6">
+                            <img class="" src="../imagen/index/ox.png" alt="">
+                            <div class="rayaverdemix my-3"></div>
+                            <p>
+                                <b>Planning</b> <br>Planificamos, creamos, <br> implementamos y realizamos
+                                <br>mantenimiento a sitios web
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
 </body>
 
