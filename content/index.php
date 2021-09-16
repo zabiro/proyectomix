@@ -366,16 +366,10 @@
 <?php include '../include/include-js.php';?>
 
 <script>
-<<<<<<< HEAD
     $(window).ready(function() {
         $(document.body).on('click', "#higado", function() {
             $("#content-pages-rutas").load('sitos_web.php');
         });
-=======
-$(window).ready(function() {
-    $(document.body).on('click', "#higado", function() {
-        $("#content-pages-rutas").load('video_marketing.php');
->>>>>>> 65819f07a0f28865ac208786d83c862964da782d
     });
 });
 </script>

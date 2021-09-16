@@ -1,11 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-<<<<<<< HEAD
             <a class="btn cerrar" data-dismiss="modal">cerrar x</a>
-=======
-            <a class="btn cerrar" class="close" data-dismiss="modal" aria-label="Close">cerrar x</a>
->>>>>>> 65819f07a0f28865ac208786d83c862964da782d
         </div>
         <div class="col-7">
             <h1 class="titulo-modal">El video como herramienta de Marketing</h1>
