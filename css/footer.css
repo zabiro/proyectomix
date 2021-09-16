@@ -1,0 +1,77 @@
+.row-footer-varon {
+    position: relative;
+    background-color: #dddddd;
+    padding: 48px 0;
+}
+
+.row-footer-varon .contenedor-footer h2 {
+    color: #000;
+    font-size: 78px;
+    font-family: "Integral-heavy";
+}
+
+.row-footer-varon .contenedor-footer p {
+    color: #000;
+}
+
+.thinkfooter {
+    position: absolute;
+    left: 16px;
+    top: 0px;
+    font-size: 219px;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    text-transform: uppercase;
+    line-height: 1;
+    font-family: "Integral-heavy";
+}
+
+.contenedor-redes-footer i {
+    font-size: 28px;
+    color: #0B0B0B;
+    margin: 0 10px 0 0;
+}
+
+.contenedor-footer h3 {
+    color: #0B0B0B;
+}
+
+.row-formulario-varon {
+    padding-top: 43px;
+}
+
+.row-formulario-varon input,
+.row-formulario-varon input:hover:focus {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #0B0B0B;
+    border-radius: 0;
+    margin: 16px 0;
+}
+
+.row-formulario-varon textarea,
+.row-formulario-varon textarea:focus {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #0B0B0B;
+    border-radius: 0;
+    margin: 16px 0;
+    resize: none;
+}
+
+.row-formulario-varon label {
+    font-family: "Integral-medium";
+    font-size: 14px;
+}
+
+.row-formulario-varon button {
+    color: #0B0B0B;
+    border-color: #0B0B0B;
+    margin-top: 16px;
+}
+
+.row-formulario-varon button:hover {
+    background-color: transparent!important;
+    color: #0B0B0B!important;
+    border-color: unset!important;
+}
