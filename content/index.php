@@ -39,34 +39,27 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-12">
-            <div id="carrouselloco">
-                <div class="slide-item">
-                    <img src="../imagen/index/nasbi.png" alt="">
-                </div>
-                <div class="slide-item">
-                    <img src="../imagen/index/nasbi.png" alt="">
-                </div>
-                <div class="slide-item">
-                    <img src="../imagen/index/nasbi.png" alt="">
-                </div>
-                <div class="slide-item">
-                    <img src="../imagen/index/nasbi.png" alt="">
-                </div>
-                <div class="slide-item">
-                    <img src="../imagen/index/nasbi.png" alt="">
-                </div>
-                <div class="slide-item">
-                    <img src="../imagen/index/nasbi.png" alt="">
-                </div>
-                <div class="slide-item">
-                    <img src="../imagen/index/nasbi.png" alt="">
-                </div>
-                <div class="slide-item">
-                    <img src="../imagen/index/nasbi.png" alt="">
-                </div>
-            </div>
+    <div class="row position-relative">
+        <img class="siguiente" src="../imagen/index/siguiente.png" alt="">
+        <img class="anterior" src="../imagen/index/anterior.png" alt="">
+        <div class="col-12 px-0">
+            <table class="caruselfalso">
+                <tbody>
+                    <tr>
+                        <td class="tg-0pky"><img src="../imagen/index/nasbi.png" alt=""></td>
+                        <td class="tg-0lax"></td>
+                        <td class="tg-0lax"><img src="../imagen/index/p2w.png" alt=""></td>
+                        <td class="tg-0lax" rowspan="2"><img src="../imagen/index/faswet.png" alt=""></td>
+                        <td class="tg-0lax" colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax" colspan="2"></td>
+                        <td class="tg-0lax"><img src="../imagen/index/iwon.png" alt=""></td>
+                        <td class="tg-0lax"><img src="../imagen/index/raro.png" alt=""></td>
+                        <td class="tg-0lax"><img src="../imagen/index/LandingP2W.png" alt=""></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 
@@ -112,11 +105,16 @@
         </div>
         <div class="col-2">
             <div class="nav flex-column nav-pills" id="porfolio" role="tablist" aria-orientation="vertical">
-                <a class="nav-link active" id="Branding-tab" data-toggle="pill" href="#Branding" role="tab" aria-controls="Branding" aria-selected="true">BRANDING</a>
-                <a class="nav-link" id="BTL-tab" data-toggle="pill" href="#BTL" role="tab" aria-controls="BTL" aria-selected="false">BTL</a>
-                <a class="nav-link" id="Production-tab" data-toggle="pill" href="#Production" role="tab" aria-controls="Production" aria-selected="false">PRODUCTION</a>
-                <a class="nav-link" id="UX/UI-tab" data-toggle="pill" href="#UX-UI" role="tab" aria-controls="UX/UI" aria-selected="false">UX / UI</a>
-                <a class="nav-link" id="Web-Site-tab" data-toggle="pill" href="#Web-Site" role="tab" aria-controls="Web-Site" aria-selected="false">WEB SITE</a>
+                <a class="nav-link active" id="Branding-tab" data-toggle="pill" href="#Branding" role="tab"
+                    aria-controls="Branding" aria-selected="true">BRANDING</a>
+                <a class="nav-link" id="BTL-tab" data-toggle="pill" href="#BTL" role="tab" aria-controls="BTL"
+                    aria-selected="false">BTL</a>
+                <a class="nav-link" id="Production-tab" data-toggle="pill" href="#Production" role="tab"
+                    aria-controls="Production" aria-selected="false">PRODUCTION</a>
+                <a class="nav-link" id="UX/UI-tab" data-toggle="pill" href="#UX-UI" role="tab" aria-controls="UX/UI"
+                    aria-selected="false">UX / UI</a>
+                <a class="nav-link" id="Web-Site-tab" data-toggle="pill" href="#Web-Site" role="tab"
+                    aria-controls="Web-Site" aria-selected="false">WEB SITE</a>
             </div>
         </div>
         <div class="col-6">
@@ -182,7 +180,8 @@
                             <img class="" src="../imagen/index/bilb.png" alt="">
                             <div class="rayaverdemix my-3"></div>
                             <p>
-                                <b>Pensamiento</b> <br> Acciones estratégicas <br> para que logres <br> experiencias únicas.
+                                <b>Pensamiento</b> <br> Acciones estratégicas <br> para que logres <br> experiencias
+                                únicas.
                             </p>
 
                         </div>
@@ -230,7 +229,8 @@
                             <img class="" src="../imagen/index/chat-empty.png" alt="">
                             <div class="rayaverdemix my-3"></div>
                             <p>
-                                <b>Metodologías</b> <br> Nos aseguramos <br> de usar la metodología <br> adecuada para tu proyecto
+                                <b>Metodologías</b> <br> Nos aseguramos <br> de usar la metodología <br> adecuada para
+                                tu proyecto
 
                             </p>
                         </div>
@@ -260,7 +260,8 @@
                             <img class="" src="../imagen/index/check-circle.png" alt="">
                             <div class="rayaverdemix my-3"></div>
                             <p>
-                                <b>Ventas</b> <br> Generación de leads y ventas, <br> además ofrecemos <br> soporte a tus clientes
+                                <b>Ventas</b> <br> Generación de leads y ventas, <br> además ofrecemos <br> soporte a
+                                tus clientes
 
                             </p>
                         </div>
@@ -303,7 +304,8 @@
                             BLOG
                         </h2>
                         <div class="rayaverdemix my-4"></div>
-                        <p>Los seres humanos amamos lo visual, es un hecho <br> innegable que se ve reflejado en cada desarrollo o <br> adelanto que conseguimos posicionar.</p>
+                        <p>Los seres humanos amamos lo visual, es un hecho <br> innegable que se ve reflejado en cada
+                            desarrollo o <br> adelanto que conseguimos posicionar.</p>
                     </div>
                     <div class="col-sm-7">
                         <div class="container-carousel">
@@ -315,7 +317,8 @@
                                     El video como <br> herramienta <br> de Marketing
                                 </h6>
                                 <div class="rayaverdemix my-4"></div>
-                                <p>Los seres humanos amamos lo visual, es un hecho innegable que se ve reflejado en cada desarrollo o adelanto que conseguimos posicionar.</p>
+                                <p>Los seres humanos amamos lo visual, es un hecho innegable que se ve reflejado en cada
+                                    desarrollo o adelanto que conseguimos posicionar.</p>
 
                             </div>
                             <div class="carusel">
@@ -325,7 +328,8 @@
                                     El video como <br> herramienta <br> de Marketing
                                 </h6>
                                 <div class="rayaverdemix my-4"></div>
-                                <p>Los seres humanos amamos lo visual, es un hecho innegable que se ve reflejado en cada desarrollo o adelanto que conseguimos posicionar.</p>
+                                <p>Los seres humanos amamos lo visual, es un hecho innegable que se ve reflejado en cada
+                                    desarrollo o adelanto que conseguimos posicionar.</p>
 
                             </div>
                         </div>
@@ -362,11 +366,18 @@
 <?php include '../include/include-js.php';?>
 
 <script>
+<<<<<<< HEAD
     $(window).ready(function() {
         $(document.body).on('click', "#higado", function() {
             $("#content-pages-rutas").load('sitos_web.php');
         });
+=======
+$(window).ready(function() {
+    $(document.body).on('click', "#higado", function() {
+        $("#content-pages-rutas").load('video_marketing.php');
+>>>>>>> 65819f07a0f28865ac208786d83c862964da782d
     });
+});
 </script>
 
 </html>

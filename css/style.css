@@ -2,6 +2,7 @@
     background: url(../imagen/index/varonfondo.png);
     background-size: cover;
     height: calc(100vh);
+    padding-top: 136px;
     align-items: center;
 }
 
@@ -24,18 +25,20 @@
     font-family: "Integral-heavy";
 }
 
-#carrouselloco>div>div>div>div:nth-child(even) {
-    position: relative;
-    left: 223px;
+img.anterior {
+    width: 22%;
+    position: absolute;
+    bottom: -29px;
+    left: 176px;
+    z-index: 9;
 }
 
-#carrouselloco>div>div>div>div:nth-child(odd) {
-    position: relative;
-    right: 223px;
-}
-
-#carrouselloco .slide-item img {
-    width: 100%;
+img.siguiente {
+    width: 22%;
+    position: absolute;
+    top: -29px;
+    right: 151px;
+    z-index: 9;
 }
 
 .row-fondo-varon-2 {
@@ -142,12 +145,14 @@
     right: -118%;
 }
 
-.row-blog-varon {}
-
 .contenedor-blog-titulo h2 {
     font-size: 78px;
     font-family: "Integral-heavy";
     color: #fff;
+}
+
+.caruselfalso img {
+    width: 100%;
 }
 
 .carusel {
