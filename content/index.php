@@ -12,6 +12,7 @@
     <!-- link css -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/video_marketing.css">
+    <link rel="stylesheet" href="../css/nasbi.css">
 
 </head>
 <!-- Include Navbar-->
@@ -365,9 +366,10 @@
 <?php include '../include/include-js.php';?>
 
 <script>
-$(window).ready(function() {
-    $(document.body).on('click', "#higado", function() {
-        $("#content-pages-rutas").load('video_marketing.php');
+    $(window).ready(function() {
+        $(document.body).on('click', "#higado", function() {
+            $("#content-pages-rutas").load('sitos_web.php');
+        });
     });
 });
 </script>

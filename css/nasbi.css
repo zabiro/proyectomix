@@ -1,0 +1,44 @@
+.content-titulo {
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.fs-60 {
+    font-size: 60px;
+}
+
+.parrafo-nasbi {
+    color: #0B0B0B;
+    text-align: left;
+    font-size: 13px;
+}
+
+p.parrafo-nasbi {
+    width: 71%;
+}
+
+span.parrafo-nasbi {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.content-titulo img {
+    width: 82%;
+    display: block;
+    margin: auto;
+}
+
+.content-titulo img.img-centro {
+    margin: 0 11px;
+}
+
+.content-img {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-img>img {
+    width: 40%;
+}
