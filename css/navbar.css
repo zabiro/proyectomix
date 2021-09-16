@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Integral-regular";
+    src: url("fonts/IntegralCF-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Integral-medium";
+    src: url("fonts/IntegralCF-Medium.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Integral-bold";
+    src: url("fonts/IntegralCF-Bold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Integral-heavy";
+    src: url("fonts/IntegralCF-Heavy.otf") format("truetype");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: #0B0B0B;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #040589;
+    border-radius: 5px;
+}
+
+.modal-open .modal,
+.modal {
+    z-index: 20000;
+    background: rgba(0, 0, 0, 0.8)!important;
+}
+
+button:focus,
+button:active {
+    outline: 0px!important;
+    box-shadow: none!important;
+}
+
+.row {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+button,
+input,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Integral-medium";
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar-background {
+    background-color: #000;
+    height: 136px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 15px;
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav {
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.contenedor-idioma {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor-idioma a {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+}
+
+.contenedor-idioma-interno {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor-idioma-interno>div {
+    position: relative;
+}
+
+.rayaunderline {
+    width: 26px;
+    height: 4px;
+    border-radius: 80px;
+    background-color: #81FF2D;
+    margin: auto;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+}
+
+.rayaverdemix {
+    width: 26px;
+    height: 4px;
+    border-radius: 80px;
+    background-color: #81FF2D;
+}
+
+.btn-outline-success {
+    color: #81FF2D!important;
+    border-color: #81FF2D!important;
+    margin-left: 50px;
+}
+
+.btn-outline-success:hover {
+    background-color: transparent!important;
+}
+
+@media (min-width: 1200px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1280px!important;
+    }
+}

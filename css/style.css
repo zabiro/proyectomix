@@ -1,0 +1,110 @@
+.row-fondo-varon {
+    background: url(../imagen/index/varonfondo.png);
+    background-size: cover;
+    height: calc(100vh);
+    align-items: center;
+}
+
+.titulo-varon {
+    font-size: 132px;
+    color: #fff;
+    font-family: "Integral-heavy";
+    margin-bottom: -40px;
+}
+
+.titulo-studio {
+    font-size: 132px;
+    -webkit-text-stroke: 1px #81FE2D;
+    color: transparent;
+}
+
+.thinkcreate {
+    color: #81FE2D;
+    font-size: 29px;
+    font-family: "Integral-heavy";
+}
+
+#carrouselloco>div>div>div>div:nth-child(even) {
+    position: relative;
+    left: 223px;
+}
+
+#carrouselloco>div>div>div>div:nth-child(odd) {
+    position: relative;
+    right: 223px;
+}
+
+#carrouselloco .slide-item img {
+    width: 100%;
+}
+
+.row-fondo-varon-2 {
+    background: url('../imagen/index/banner-astronauta.png');
+    background-size: cover;
+    padding-top: 134px;
+}
+
+.contenedor-marcas {
+    margin: 48px auto -36px;
+}
+
+.titulo-creemos {
+    font-size: 89px;
+    color: #fff;
+    font-family: "Integral-heavy";
+    margin-bottom: 54px;
+}
+
+.titulo-adn {
+    font-size: 78px;
+    -webkit-text-stroke: 1px #81FE2D;
+    color: transparent;
+}
+
+.titulo-nuestro {
+    font-size: 116px;
+    color: #fff;
+    font-family: "Integral-heavy";
+    transform: rotate( -90deg);
+    position: relative;
+    left: -114px;
+    bottom: -146px;
+}
+
+.titulo-talento {
+    font-size: 116px;
+    -webkit-text-stroke: 1px #81FE2D;
+    color: transparent;
+    transform: rotate( -90deg);
+    padding-left: 0px;
+}
+
+.actuamos {
+    color: #fff;
+    font-size: 19px;
+    font-family: "Integral-regular";
+    margin-top: 5px;
+}
+
+.rayablanca {
+    display: inline-block;
+    width: 110px;
+    height: 3px;
+    margin-bottom: 30px;
+    background: #fff;
+}
+
+#porfolio .nav-link,
+.show>.nav-link {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin-bottom: 32px;
+}
+
+#porfolio .nav-link.active,
+.show>.nav-link {
+    color: #0B0B0B;
+    background-color: #81FE2D;
+    border-color: #81FE2D;
+}
