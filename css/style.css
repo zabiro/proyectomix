@@ -127,5 +127,8 @@
 
 .dialog-personalizado #content-pages-rutas {
     padding: 0;
+}
+
+.modal-content {
     background: #DDDDDD;
 }

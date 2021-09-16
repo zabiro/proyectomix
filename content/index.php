@@ -11,6 +11,7 @@
 
     <!-- link css -->
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/video_marketing.css">
 
 </head>
 <!-- Include Navbar-->
@@ -315,7 +316,7 @@
 <script>
     $(window).ready(function() {
         $(document.body).on('click', "#higado", function() {
-            $("#content-pages-rutas").load('base.php');
+            $("#content-pages-rutas").load('video_marketing.php');
         });
     });
 </script>
