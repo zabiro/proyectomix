@@ -78,6 +78,7 @@ p {
 .navbar-background {
     background-color: #000;
     height: 136px;
+    z-index: 9999999;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {

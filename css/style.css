@@ -108,3 +108,16 @@
     background-color: #81FE2D;
     border-color: #81FE2D;
 }
+
+
+/* dialog-personalizado */
+
+.dialog-personalizado {
+    width: 100vw;
+    max-width: 100vw;
+    margin-top: 136px;
+}
+
+.dialog-personalizado #content-pages-rutas {
+    padding: 0;
+}

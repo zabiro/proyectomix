@@ -132,9 +132,35 @@
 
 </body>
 
+<!-- Button trigger modal -->
+<button id="higado" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modelId">
+    Launch
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog dialog-personalizado" role="document">
+        <div class="modal-content">
+
+            <div id="content-pages-rutas" class="modal-body">
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
 <?php include '../include/footer.php';?>
 
 <!-- Include General JS -->
 <?php include '../include/include-js.php';?>
+
+<script>
+    $(window).ready(function() {
+        $(document.body).on('click', "#higado", function() {
+            $("#content-pages-rutas").load('base.php');
+        });
+    });
+</script>
 
 </html>

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-background">
+<nav class="navbar navbar-expand-lg navbar-background fixed-top">
     <div class="container">
         <a class="navbar-brand" href="#"><img src="../imagen/navbar/Logo.svg" alt="Logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
