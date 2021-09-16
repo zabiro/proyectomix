@@ -179,3 +179,103 @@ img.siguiente {
         right: -83%;
     }
 }
+
+@media (max-width: 575px) {
+    .row-fondo-varon {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: 52%;
+        margin-top: 136px;
+        align-items: center;
+        padding-top: 0;
+        height: calc(67vh);
+    }
+    .titulo-varon {
+        font-size: 4rem;
+        margin-bottom: -19px;
+        margin-top: -100px;
+    }
+    .titulo-studio {
+        font-size: 4rem;
+    }
+    .thinkcreate {
+        font-size: 1.2rem;
+    }
+    .caruselfalso {
+        width: 80%;
+        margin: 32px auto;
+    }
+    .caruselfalso td {
+        width: 50%;
+    }
+    img.anterior {
+        width: 49%!important;
+        position: absolute;
+        bottom: -43px;
+        left: 23px;
+        z-index: 9;
+    }
+    img.siguiente {
+        width: 61%!important;
+        position: absolute;
+        top: -16px;
+        right: 0;
+        z-index: 9;
+    }
+    .contenedor-marcas {
+        margin: 80px auto 15px;
+    }
+    .titulo-adn {
+        font-size: 1.5rem;
+        padding-left: 20%;
+    }
+    .titulo-creemos {
+        font-size: 1.5rem;
+        padding-left: 20%;
+    }
+    .container {
+        padding: 0!important;
+    }
+    .rayablanca {
+        width: 63px;
+        margin-bottom: 10px;
+    }
+    .responsivepadding {
+        padding-left: auto;
+    }
+    .actuamos {
+        color: #fff;
+        font-size: .7rem;
+        font-family: "Integral-regular";
+        margin-top: 5px;
+        margin-left: auto;
+        width: max-content;
+        text-align: left;
+    }
+    .rayaverdemix {
+        margin-left: auto;
+        margin-right: 39%;
+    }
+    .elipsimix {
+        display: none;
+    }
+    .titulo-nuestro {
+        font-size: 4rem;
+        left: 0;
+        bottom: 0;
+        right: unset;
+        position: absolute;
+        transform-origin: 0 0;
+    }
+    .titulo-talento {
+        font-size: 4rem;
+        bottom: 0%;
+        left: 62px;
+        transform-origin: 0 0;
+        position: absolute;
+    }
+    .row-fondo-varon-2 {
+        padding-top: 113px;
+        background-position-x: 46%;
+    }
+}
