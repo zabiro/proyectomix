@@ -89,7 +89,7 @@
                 </h2>
             </div>
         </div>
-        <div class="col-sm-4 offset-sm-6 mb-5">
+        <div class="col-sm-4 offset-sm-6 ">
             <div class="rayaverdemix"></div>
             <h3 class="actuamos">
                 Actuamos en función de <br> tu marca,por eso decimos <br> think+create+act
@@ -97,7 +97,7 @@
         </div>
 
         <div class="w-100" style="
-        height: 425px;
+        height: 278px;
     "></div>
 
         <div class="col-2 offset-sm-2">
@@ -286,7 +286,54 @@
                     </div>
                 </div>
             </div>
+            <img class="elipsimix" src="../imagen/index/Elipse 6.png" alt="">
         </div>
+    </div>
+    <div style="height: 228px">
+
+    </div>
+
+    <div class="row row-blog-varon">
+        <div class="col-12">
+            <div class="container">
+                <div class="row my-5">
+                    <div class="col-sm-5 contenedor-blog-titulo">
+                        <h2>
+                            BLOG
+                        </h2>
+                        <div class="rayaverdemix my-4"></div>
+                        <p>Los seres humanos amamos lo visual, es un hecho <br> innegable que se ve reflejado en cada desarrollo o <br> adelanto que conseguimos posicionar.</p>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="container-carousel">
+
+                            <div class="carusel">
+                                <img src="../imagen/index/el-video-y-herramienta.png" alt="">
+                                <p>17 abril, 2021</p>
+                                <h6>
+                                    El video como <br> herramienta <br> de Marketing
+                                </h6>
+                                <div class="rayaverdemix my-4"></div>
+                                <p>Los seres humanos amamos lo visual, es un hecho innegable que se ve reflejado en cada desarrollo o adelanto que conseguimos posicionar.</p>
+
+                            </div>
+                            <div class="carusel">
+                                <img src="../imagen/index/el-video-y-herramienta.png" alt="">
+                                <p>17 abril, 2021</p>
+                                <h6>
+                                    El video como <br> herramienta <br> de Marketing
+                                </h6>
+                                <div class="rayaverdemix my-4"></div>
+                                <p>Los seres humanos amamos lo visual, es un hecho innegable que se ve reflejado en cada desarrollo o adelanto que conseguimos posicionar.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 </body>
 
