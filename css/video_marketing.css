@@ -1,0 +1,12 @@
+.cerrar {
+    float: right;
+    color: #0B0B0B !important;
+    font-family: "Integral-medium";
+    font-size: 12px;
+}
+
+.titulo-modal {
+    color: #0B0B0B;
+    font-family: "Integral-heavy";
+    font-size: 20px;
+}
