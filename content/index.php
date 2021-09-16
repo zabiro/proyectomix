@@ -49,10 +49,10 @@
                         <td class="tg-0lax"></td>
                         <td class="tg-0lax"><img src="../imagen/index/p2w.png" alt=""></td>
                         <td class="tg-0lax" rowspan="2"><img src="../imagen/index/faswet.png" alt=""></td>
-                        <td class="tg-0lax" colspan="2">5</td>
+                        <td class="tg-0lax" colspan="2"></td>
                     </tr>
                     <tr>
-                        <td class="tg-0lax" colspan="2">6</td>
+                        <td class="tg-0lax" colspan="2"></td>
                         <td class="tg-0lax"><img src="../imagen/index/iwon.png" alt=""></td>
                         <td class="tg-0lax"><img src="../imagen/index/raro.png" alt=""></td>
                         <td class="tg-0lax"><img src="../imagen/index/LandingP2W.png" alt=""></td>

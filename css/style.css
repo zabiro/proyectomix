@@ -26,18 +26,18 @@
 }
 
 img.anterior {
-    width: 410px;
+    width: 22%;
     position: absolute;
     bottom: -29px;
-    left: 223px;
+    left: 176px;
     z-index: 9;
 }
 
 img.siguiente {
-    width: 410px;
+    width: 22%;
     position: absolute;
     top: -29px;
-    right: 336px;
+    right: 151px;
     z-index: 9;
 }
 
@@ -149,6 +149,10 @@ img.siguiente {
     font-size: 78px;
     font-family: "Integral-heavy";
     color: #fff;
+}
+
+.caruselfalso img {
+    width: 100%;
 }
 
 .carusel {
