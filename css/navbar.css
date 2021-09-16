@@ -24,6 +24,10 @@
     src: url("fonts/IntegralCF-Heavy.otf") format("truetype");
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :focus {
     box-shadow: none!important;
     outline: none!important;
@@ -37,12 +41,14 @@ body {
     background: #0B0B0B;
 }
 
-body::-webkit-scrollbar {
+body::-webkit-scrollbar,
+.modal-body::-webkit-scrollbar {
     width: 5px;
     height: 8px;
 }
 
-body::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb,
+.modal-body::-webkit-scrollbar-thumb {
     background: #040589;
     border-radius: 5px;
 }
@@ -84,6 +90,10 @@ h6 {
 p {
     font-family: 'Inter', sans-serif;
     color: #fff;
+}
+
+.navbar-background {
+    padding: 0 7%;
 }
 
 .navbar-background {
@@ -170,5 +180,41 @@ p {
     .container-sm,
     .container-xl {
         max-width: 1280px!important;
+    }
+}
+
+@media (max-width: 575px) {
+    .icon-cerrado {
+        display: block;
+    }
+    .mejora {
+        position: relative;
+        bottom: -32px;
+    }
+    .icon-abierto {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav {
+        justify-content: space-evenly;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.8);
+    }
+    .navbar-expand-lg .navbar-nav h3 {
+        color: #fff;
+        padding-left: 32px;
+    }
+    .navbar-expand-lg .navbar-nav i {
+        color: #fff;
+        padding-left: 32px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0 32px;
+    }
+    .btn-outline-success {
+        margin-left: 32px;
+    }
+    .navbar-collapse.collapse.show {
+        margin-left: -37px;
     }
 }

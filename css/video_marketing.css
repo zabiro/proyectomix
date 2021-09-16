@@ -90,3 +90,31 @@
 .parrajo-modal-grupo {
     font-size: 13px;
 }
+
+.container-hagaga h6 {
+    color: #0B0B0B;
+}
+
+.container-hagaga p {
+    color: #0B0B0B;
+}
+
+@media (max-width: 575px) {
+    .titulo-modal {
+        font-size: 2.5rem;
+    }
+    .content-fundador {
+        margin: 16px 0;
+    }
+    .content-fundador>div>label {
+        font-weight: bold;
+        font-size: 17px;
+        margin: 0;
+    }
+    .numero-modal {
+        font-size: 6rem;
+    }
+    .parrafo2-modal {
+        width: 100%;
+    }
+}

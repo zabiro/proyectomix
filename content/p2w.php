@@ -1,12 +1,12 @@
 <div class="container">
     <div class="row content-titulo">
         <div class="col-12">
-            <a class="btn cerrar" data-dismiss="modal">cerrar x</a>
+        <a class="btn cerrar" data-dismiss="modal">cerrar <b>x</b> </a>
         </div>
-        <div class="col-3">
+        <div class="col-sm-3">
             <label for="" class="titulo-modal fs-60">P2W</label>
         </div>
-        <div class="col-7">
+        <div class="col-sm-7">
             <p class="parrafo-nasbi">Es una comunidad educativa que fomenta la economía colaborativa y el crecimiento conjunto a través de plataformas digitales, el aprendizaje y la solidaridad.</p>
             <span class="parrafo-nasbi">Juntos podemos más, vamos por más.</span>
         </div>
@@ -28,3 +28,4 @@
         </div>
     </div>
 </div>
+<?php include '../include/footer.php';?>

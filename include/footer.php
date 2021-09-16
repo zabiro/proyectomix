@@ -1,4 +1,4 @@
-<div class="row row-footer-varon">
+<div id="footer-index" class="row row-footer-varon">
     <p class="thinkfooter">think + <br> create + <br> act</p>
     <div class="col-12">
         <div class="container">
@@ -16,14 +16,18 @@
                         <p><b> Bogotá. </b> <br> Calle 93 #12-78 of 601 <br> (571) 3057051210</p>
                     </div>
 
-                    <div class="my-5">
-                        <h3> <a href="mailto:info@varonstudio.com"></a> info@varonstudio.com</h3>
-                        <h3><a href="tel:3057051210"></a> 3057051210</h3>
+                    <div class="my-5 d-none d-sm-block">
+                        <h3>
+                            <a href="mailto:info@varonstudio.com"></a> info@varonstudio.com
+                        </h3>
+                        <h3>
+                            <a href="tel:3057051210"></a> 3057051210
+                        </h3>
 
 
 
                     </div>
-                    <div class="my-5 contenedor-redes-footer">
+                    <div class="my-5 d-none d-sm-block contenedor-redes-footer">
                         <a target="_blank" href="http://www.facebook.com/varonphotographyandfilms"><i
                                 class="fab fa-facebook-f"></i>
                         </a>
@@ -39,15 +43,15 @@
                     </div>
 
                 </div>
-                <div class="col-sm-7">
+                <div class="col-sm-7 pl-0 pl-sm-3">
                     <form action="">
                         <div class="row row-formulario-varon">
-                            <div class="col-sm-6">
+                            <div class="col-6">
 
                                 <label for="">Nombre</label>
                                 <input type="text" class="form-control" placeholder="">
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-6">
 
                                 <label for="">Email</label>
                                 <input type="text" class="form-control" placeholder="">
@@ -60,11 +64,36 @@
 
                             </div>
                             <div class="col-12">
-
                                 <button type="button" class="btn btn-outline-primary px-5">ENVIAR</button>
                             </div>
 
                     </form>
+                </div>
+
+                <div class="my-5 pl-3 d-sm-none d-block">
+                    <h3 style="font-size: 1.5rem; color: #000;">
+                        <a href="mailto:info@varonstudio.com"></a> info@varonstudio.com
+                    </h3>
+                    <h3 style="font-size: 1.5rem; color: #000;">
+                        <a href="tel:3057051210"></a> 3057051210
+                    </h3>
+
+
+
+                </div>
+                <div class="my-5 pl-3 d-sm-none d-block contenedor-redes-footer">
+                    <a target="_blank" href="http://www.facebook.com/varonphotographyandfilms"><i
+                            class="fab fa-facebook-f"></i>
+                    </a>
+                    <a target="_blank" href="https://www.behance.net/varonstudio"><i class="fab fa-behance"></i>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/varonstudio"><i class="fab fa-instagram"></i>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/company/33204258"><i
+                            class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UC5F8xiDiOgySLdcddUTW63A"><i
+                            class="fab fa-youtube"></i> </a>
                 </div>
             </div>
         </div>

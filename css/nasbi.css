@@ -42,3 +42,12 @@ span.parrafo-nasbi {
 .content-img>img {
     width: 40%;
 }
+
+@media (max-width: 575px) {
+    .content-titulo img {
+        width: 100%;
+    }
+    .content-titulo img.img-centro {
+        width: 47%;
+    }
+}

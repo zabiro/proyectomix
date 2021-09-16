@@ -1,13 +1,15 @@
 <div class="container">
     <div class="row content-titulo">
         <div class="col-12">
-            <a class="btn cerrar" data-dismiss="modal">cerrar x</a>
+            <a class="btn cerrar" data-dismiss="modal">cerrar <b>x</b> </a>
         </div>
-        <div class="col-4">
+        <div class="col-sm-4">
             <label for="" class="titulo-modal fs-60">Clientes</label>
         </div>
-        <div class="col-6">
-            <p class="parrafo-nasbi">Una campaña de éxito puede definirse por tres elementos principales: una idea creativa, un buen diseño y una buena ejecución. Y en Varón lo sabemos. Por eso, te dejamos con una muestra de la creatividad de nuestra agencia.</p>
+        <div class="col-sm-6">
+            <p class="parrafo-nasbi">Una campaña de éxito puede definirse por tres elementos principales: una idea
+                creativa, un buen diseño y una buena ejecución. Y en Varón lo sabemos. Por eso, te dejamos con una
+                muestra de la creatividad de nuestra agencia.</p>
             <!-- <span class="parrafo-nasbi">Juntos podemos más, vamos por más.</span> -->
         </div>
     </div>
@@ -28,3 +30,4 @@
         </div>
     </div> -->
 </div>
+<?php include '../include/footer.php';?>

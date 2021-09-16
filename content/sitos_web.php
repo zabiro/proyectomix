@@ -1,12 +1,12 @@
 <div class="container">
     <div class="row content-titulo">
         <div class="col-12">
-            <a class="btn cerrar" data-dismiss="modal">cerrar x</a>
+        <a class="btn cerrar" data-dismiss="modal">cerrar <b>x</b> </a>
         </div>
-        <div class="col-3">
+        <div class="col-sm-3">
             <label for="" class="titulo-modal fs-60">Sitios web</label>
         </div>
-        <div class="col-7">
+        <div class="col-sm-7">
             <p class="parrafo-nasbi">Combinamos la innovación, la tecnología y las tendencias de desarrollo web para crear páginas intuitivas para cualquier usuario, manteniendo la solidez y exclusividad en el diseño.</p>
             <!-- <span class="parrafo-nasbi">IWON. Registra, controla, optimiza.</span> -->
         </div>
@@ -28,3 +28,4 @@
         </div>
     </div> -->
 </div>
+<?php include '../include/footer.php';?>

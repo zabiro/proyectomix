@@ -132,7 +132,7 @@ img.siguiente {
 }
 
 .dialog-personalizado #content-pages-rutas {
-    padding: 0;
+    padding: 48px 0;
 }
 
 .modal-content {
@@ -262,14 +262,14 @@ img.siguiente {
     .titulo-nuestro {
         font-size: 4rem;
         left: 0;
-        bottom: 0;
+        bottom: -53px;
         right: unset;
         position: absolute;
         transform-origin: 0 0;
     }
     .titulo-talento {
         font-size: 4rem;
-        bottom: 0%;
+        bottom: -53px;
         left: 62px;
         transform-origin: 0 0;
         position: absolute;
@@ -277,5 +277,77 @@ img.siguiente {
     .row-fondo-varon-2 {
         padding-top: 113px;
         background-position-x: 46%;
+    }
+    #accordionExample .card-header {
+        background-color: transparent;
+        border: 1px solid #fff;
+        margin-bottom: 32px;
+        text-align: center;
+        padding: 0;
+        text-decoration: none;
+    }
+    #accordionExample .card-header button {
+        color: #fff;
+        font-size: 14px;
+    }
+    #accordionExample .card-header div {
+        text-align: left;
+    }
+    #accordionExample .rayaverdemix {
+        margin-left: unset;
+        margin-right: auto;
+    }
+    #accordionExample .collapse.show {
+        border: none!important;
+    }
+    .botonverde.botonverde {
+        color: #0B0B0B!important;
+        background-color: #81FE2D;
+        border-color: #81FE2D;
+        text-decoration: none;
+    }
+    .accordion p {
+        font-size: 12px;
+    }
+    .btn-link.focus,
+    .btn-link:focus {
+        text-decoration: none!important;
+    }
+    .quitarborde {
+        border: none!important;
+    }
+    .quitarborde button {
+        margin-bottom: 16px;
+    }
+    .row-blog-varon .rayaverdemix {
+        margin-left: unset;
+        margin-right: auto;
+    }
+    .slick-dots li.slick-active button:before {
+        opacity: .75;
+        color: black;
+        color: #A2FB59;
+        content: '▪';
+    }
+    .slick-dots li button:before {
+        width: 20px;
+        height: 20px;
+        content: '▫';
+        color: #A2FB59;
+        font-size: 40px;
+    }
+    .thinkfooter {
+        top: 70px;
+        font-size: 4rem;
+        line-height: 1.2;
+    }
+    .row-footer-varon .contenedor-footer h2 {
+        font-size: 3.2rem;
+    }
+    .contenedor-footer h3 {
+        font-size: 1.5rem;
+    }
+    .row-formulario-varon button {
+        font-size: 12px;
     }
 }
